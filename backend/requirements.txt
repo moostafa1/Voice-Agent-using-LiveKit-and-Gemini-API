@@ -1,0 +1,24 @@
+# LiveKit core
+livekit
+livekit-agents
+livekit-agents[google,silero,turn-detector]~=1.2
+
+# Google Gemini support
+google-cloud-aiplatform
+google-generativeai
+
+# Vectorstore & embeddings
+chromadb
+ollama
+langchain>=0.1.0
+langchain_community
+langchain_ollama
+langchain_chroma
+sentence_transformers
+
+# Environment & helpers
+python-dotenv
+
+# Optional for web/API interface
+fastapi
+uvicorn
